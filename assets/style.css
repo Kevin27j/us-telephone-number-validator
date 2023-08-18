@@ -5,6 +5,7 @@
 
 body {
     box-sizing: border-box;
+    min-height: 100vh;
 }
 
 .flex {
@@ -17,19 +18,43 @@ body {
 /* HEADER */
 .header-sec {
     padding: 2rem 1rem;
-    background-color: aqua;
+    background-color: #1C1847;
+    color: #EEE7E6;
+    min-height: 5rem;
 }
 
 /* MAIN */
 .main-sec {
-    background-color: antiquewhite;
-    min-height: 80vh;
+    background-color: #EEE7E6;
+    justify-content: unset;
 }
 
 .validator-container {
-    background-color: blue;
-    max-width: 250px;
-    height: 15rem;
-    margin: 0 auto;
+    background-color: #EC2322;
+    color: #EEE7E6;
+    min-width: 280px;
+    min-height: 15rem;
+    margin: 5rem auto;
+    text-align: left;
 }
 
+.phone-label {
+    font-size: 1.3rem;
+}
+
+.input-el {
+    background-color: #EEE7E6;
+    margin: 10px 0;
+    min-width: 200px;
+    padding: 5px 0;
+    border: 2px solid #AC8798;
+    
+}
+
+
+/* FOOTER */
+.footer-sec {
+    background-color: #1C1847;
+    color: #EEE7E6;
+    min-height: 3.5rem;
+}
