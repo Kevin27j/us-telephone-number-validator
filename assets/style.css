@@ -27,14 +27,16 @@ body {
 .main-sec {
     background-color: #EEE7E6;
     justify-content: unset;
+    height: 60vh;
 }
 
 .validator-container {
     background-color: #EC2322;
     color: #EEE7E6;
     min-width: 280px;
-    min-height: 15rem;
+    height: 15rem;
     margin: 5rem auto;
+    padding-bottom: 3rem;
     text-align: left;
 }
 
@@ -48,9 +50,7 @@ body {
     min-width: 200px;
     padding: 5px 0;
     border: 2px solid #AC8798;
-    
 }
-
 
 /* FOOTER */
 .footer-sec {
