@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* border: 2px solid green; */
 }
 
 body {
@@ -32,7 +33,7 @@ body {
 
 .validator-container {
     background-color: #EC2322;
-    color: #EEE7E6;
+    /* color: #EEE7E6; */
     min-width: 280px;
     height: 15rem;
     margin: 5rem auto;
@@ -42,6 +43,7 @@ body {
 
 .phone-label {
     font-size: 1.3rem;
+    color: black;
 }
 
 .input-el {
@@ -49,7 +51,16 @@ body {
     margin: 10px 0;
     min-width: 200px;
     padding: 5px 0;
-    border: 2px solid #AC8798;
+    border: 2px solid black;
+}
+
+#result-wrapper {
+    min-width: 200px;
+    padding: 5px 0;
+    height: 20px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #EEE7E6;
 }
 
 /* FOOTER */
