@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Kevin27j/us-telephone-number-validator)
-- Live Site URL: [Github Pages]()
+- Live Site URL: [Github Pages](https://kevin27j.github.io/us-telephone-number-validator/)
 
 ## My process
 

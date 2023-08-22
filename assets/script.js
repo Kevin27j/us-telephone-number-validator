@@ -8,7 +8,7 @@ function telephoneCheck(str) {
 }
 
 checkNumberButton.addEventListener("click", function(){
-    newResult.innerText = ""
+    // newResult.innerHTML = ""
     resultWrapper.appendChild(newResult);
     if (!telephoneCheck(phoneInput.value)){
         newResult.innerText = "FAIL";
