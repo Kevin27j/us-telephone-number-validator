@@ -7,6 +7,7 @@
 body {
     box-sizing: border-box;
     min-height: 100vh;
+    font-family: 'Kanit', sans-serif;
 }
 
 .flex {
@@ -28,7 +29,7 @@ body {
 .main-sec {
     background-color: #EEE7E6;
     justify-content: unset;
-    height: 60vh;
+    height: 70vh;
 }
 
 .validator-container {
@@ -68,4 +69,9 @@ body {
     background-color: #1C1847;
     color: #EEE7E6;
     min-height: 3.5rem;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #d3c5c3;
 }
